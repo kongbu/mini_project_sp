@@ -1,0 +1,18 @@
+1. ExploreData.py
+This file is used to get the basic statictics of the each data file.
+
+2. feature_engineering.py
+This file generate and merge features of user profile, voucher_distribution_active_date and Voucher_mechanics.
+Also merge the features generated from other data files.
+
+3. extract_view_log.py
+This file extract the features from view_log_0 to 31 files.
+
+4. extract_transaction.py
+This file extract the features from the transcation data file.
+
+5. extract_likes.py
+This file extract the features from likes.csv file.
+
+6. modelling.py
+This file split the training set, and conduct the train, validate, and predict to generate the final submission file.
